@@ -2,7 +2,7 @@ Concept for scripting the attachment of an existing cluster. This
 does require you to have a kubeconfig for the cluster you want to 
 attach.
 
-Build the docker container. This docker container containers kubectl 
+Build the docker container. This docker container containerizes kubectl 
 and the tmc cli that will be used to attach the cluster.
 ```
 cd ./scripts
